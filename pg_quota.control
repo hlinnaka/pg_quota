@@ -1,0 +1,5 @@
+# pg_quota extension
+comment = 'disk space quota extension'
+default_version = '1.0'
+module_pathname = '$libdir/pg_quota'
+relocatable = false
