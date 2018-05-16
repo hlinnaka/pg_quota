@@ -327,7 +327,7 @@ _PG_init(void)
 							NULL);
 
 	DefineCustomIntVariable("pg_quota.restart_interval",
-							"How long to wait aftera a worker crash before restart (in seconds).",
+							"How long to wait after a worker crash before restart (in seconds).",
 							NULL,
 							&pg_quota_restart_interval,
 							BGW_DEFAULT_RESTART_INTERVAL,
